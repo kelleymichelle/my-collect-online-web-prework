@@ -6,6 +6,6 @@ def my_collect(array)
       newarr << yield(array[counter])
         counter += 1
     end    
-  
+  newarr
 end  
 
